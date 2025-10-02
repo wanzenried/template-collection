@@ -1,0 +1,59 @@
+# -----------------------------------------------------------------------------
+# Vivado Git Ignore Template
+# Keep: HDL sources, constraints, IP configs, project tcl scripts, docs
+# Ignore: Build artifacts, auto-generated files, logs, databases
+# -----------------------------------------------------------------------------
+
+# Vivado project files
+*.xpr
+
+# Vivado build directories
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.xsa/
+
+# Vivado logs and journals
+*.jou
+*.log
+*.str
+*.wdb
+
+# Vivado project databases & checkpoints
+*.dcp
+*.rpt
+*.ltx
+*.pb
+
+# Bitstreams and binaries
+*.bit
+*.bin
+*.mmi
+*.prm
+
+# Reports and synthesis output
+*.syr
+*.srp
+*.xml
+
+# Simulation outputs
+*.vcd
+*.wcfg
+
+# Temporary/backup files
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+
+# -----------------------------------------------------------------------------
+# What to keep in Git (don’t ignore these):
+#   - VHDL/Verilog: *.vhd, *.vhdl, *.v
+#   - Constraints: *.xdc
+#   - IP config:   *.xci
+#   - Scripts:     *.tcl
+#   - Docs:        *.md, *.txt, etc.
+# -----------------------------------------------------------------------------
